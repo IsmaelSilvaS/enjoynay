@@ -42,7 +42,7 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 191, 44, 167;
+  --bs-primary-rgb: 209, 184, 194;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
@@ -61,7 +61,7 @@
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
-  --bs-body-color: #212529;
+  --bs-body-color: #2e282b;
   --bs-body-bg: #fff;
   --bs-border-width: 1px;
   --bs-border-style: solid;
@@ -2845,20 +2845,20 @@ textarea.form-control-lg {
 }
 
 .btn-primary {
-  --bs-btn-color: #fff;
-  --bs-btn-bg: #BF2CA7;
-  --bs-btn-border-color: #EE05F2;
-  --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #EE05F2;
-  --bs-btn-hover-border-color: #EE05F2;
+  --bs-btn-color: #7e415c;
+  --bs-btn-bg: #d1b8c2;
+  --bs-btn-border-color: #7e415c;
+  --bs-btn-hover-color: #ffffff;
+  --bs-btn-hover-bg: #7e415c;
+  --bs-btn-hover-border-color: #7e415c;
   --bs-btn-focus-shadow-rgb: 255, 208, 38;
   --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: ##EE05F2;
-  --bs-btn-active-border-color: #EE05F2;
+  --bs-btn-active-bg: ##7e415c;
+  --bs-btn-active-border-color: #EE7e415c05F2;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg: #BF2CA7;
-  --bs-btn-disabled-border-color: #BF2CA7;
+  --bs-btn-disabled-bg: #7e415c;
+  --bs-btn-disabled-border-color: #7e415c;
 }
 
 .btn-secondary {
@@ -10877,7 +10877,7 @@ p {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: #BF2CA7;
+  background-color: #d1b8c2;
 }
 #mainNav .navbar-toggler {
   padding: 0.75rem;
@@ -10901,7 +10901,7 @@ p {
   letter-spacing: 0.0625em;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #f5c2c7;
+  color: #7e415c;
 }
 
 @media (min-width: 992px) {
@@ -10923,7 +10923,7 @@ p {
   #mainNav.navbar-shrink {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: #BF2CA7;
+    background-color: #D1B8C2;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -10996,7 +10996,7 @@ header.masthead .masthead-heading {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: #BF2CA788;
+  background: #D1B8C299;
   align-items: center;
   justify-content: center;
   opacity: 0;
@@ -11119,10 +11119,10 @@ header.masthead .masthead-heading {
   height: 80px;
   margin-left: 0;
   text-align: center;
-  color: white;
+  color: #7e415c;
   border: 7px solid #e9ecef;
   border-radius: 100%;
-  background-color: #BF2CA7;
+  background-color: #D1B8C2;
 }
 .timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 {
   font-size: 10px;
